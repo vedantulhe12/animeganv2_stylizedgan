@@ -11,10 +11,10 @@ from utils.common import tensor2im
 # -------------------------------
 # Config
 # -------------------------------
-E4E_CHECKPOINT = "encoder4editing/pretrained_models/e4e_ffhq_encode.pt"
-ANIMEGAN_CHECKPOINT = "weights/paprika.pt"
-BOUNDARY_PATH = "boundaries/boundary_happy.npy"  # change to match emotion
-INPUT_IMAGE = "test_images/face.jpg"  # path to input human face
+E4E_CHECKPOINT = r"C:\Users\Vedant\Desktop\encoder4editing\pretrained_models\e4e_ffhq_encode.pt"
+ANIMEGAN_CHECKPOINT = r"weights/paprika.pt"
+BOUNDARY_PATH = r"boundaries/boundary_happy.npy"  # change to match emotion
+INPUT_IMAGE = r"C:\Users\Vedant\Desktop\animegan2-pytorch\inputs images\7acb0a06072b15d99b3989f7df009146_69999.png"  # path to input human face
 OUTPUT_PATH = "results/output_happy.png"
 INTENSITY = 1.0
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
